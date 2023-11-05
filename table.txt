@@ -1,0 +1,30 @@
+Database Information:
+--------------------
+Customers: 
+	customer ID
+	name
+	email
+	location
+
+Orders: 
+	order ID
+	customer ID
+	order date 
+	total amount
+
+Products: 
+	product ID
+	name
+	description
+	price
+
+Categories: 
+	category ID 
+	name
+
+Order_Items: 
+	order item ID
+	order ID
+	product ID
+	quantity
+	unit price
