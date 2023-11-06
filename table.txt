@@ -1,30 +1,31 @@
 Database Information:
 --------------------
-Customers: 
-	customer ID
+customers: 
+	customer_id
 	name
 	email
 	location
 
-Orders: 
-	order ID
-	customer ID
-	order date 
-	total amount
+orders: 
+	order_id
+	customer_id
+	order_date 
+	total_amount
 
-Products: 
-	product ID
+products: 
+	product_id
+	category_id
 	name
 	description
 	price
 
-Categories: 
-	category ID 
+categories: 
+	category_id 
 	name
 
-Order_Items: 
-	order item ID
-	order ID
-	product ID
+order_items: 
+	order_item_id
+	order_id
+	product_id
 	quantity
-	unit price
+	unit_price
